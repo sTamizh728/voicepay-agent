@@ -3,7 +3,7 @@ import uuid
 import httpx
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID")
 SECRET = os.getenv("PAYPAL_SECRET")
